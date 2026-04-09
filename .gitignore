@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+reaclib_fit
+*.o
+*.so
+*.dylib
+
+# ROOT output / temporary files
+*.root
+*.pcm
+*.d
+*.swp
+*.swo
+
+# Generated fit outputs
+output/*.fit
+
+# Generated input variants
+input/*_central.dat
+input/*_lower.dat
+input/*_upper.dat
+
+# Optional local logs
+*.log
+
